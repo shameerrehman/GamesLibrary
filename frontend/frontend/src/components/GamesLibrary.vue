@@ -266,7 +266,7 @@ export default {
 
     onResetUpdate(e) {
       e.preventDefault();
-      this.$refs.editForm.hide();
+      this.$refs.editGameModal.hide();
       this.initForm();
       this.getGames();
     },
